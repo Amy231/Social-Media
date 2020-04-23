@@ -1,0 +1,129 @@
+{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: lightgray;
+}
+
+.header{
+    width: 850px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    margin: auto;
+}
+
+.header-bg{
+    height: 280px;
+    width: -700px;
+    background-color: #3b5998;
+    border: .5px solid lightslategray;
+    position: relative;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.profile-buttons{
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 50px;
+    padding-right: 15px;
+    margin-top: 45px;
+}
+.profile-photo{
+    border: 1px solid darkgrey;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3b5998;
+    left: 20px;
+    top: 110px;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+h1{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+}
+
+.profile-info{
+    position: relative;
+    top: -5px;
+    left: 250px;
+}
+
+.profile-info, .profile-buttons{
+    display: inline;
+}
+
+.subheader{
+    background-color: white;
+    height: 40px;
+    top: -12px;
+    position: relative;
+}
+   
+.subheader li{
+   list-style-type: none;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    font-size: 18px;
+    top: 10px;
+    left: 180px;
+    border-left: 1px dotted gray;
+}
+
+.subheader li:first-child{
+    border: none;
+}
+
+nav{
+    border: 1px solid lightgray;
+}
+
+.column-right{
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 512px;
+    top: 400px;
+    left: 653px;
+    margin: auto;
+}
+
+.column-left{
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 328px;
+    top: 400px;
+    left: 320px;
+    margin: auto;
+    right: 740px;
+    
+}
+
+h3{
+    text-align: center;
+}
